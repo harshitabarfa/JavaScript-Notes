@@ -4,7 +4,8 @@ const name = "Harshita"
 const repoCount = 50
 
 // String ko declare karne ka ek or tarika.
-const otherName = new String("Harshiii")
+const otherName = new String("Harshiii-barfa-bca")
+// console.log(otherName.split('-')) // Array ke form me print kar dega
 
 // Accessing element
 // console.log(name[0])
@@ -41,3 +42,5 @@ const otherName = new String("Harshiii")
 // substring() method
 // console.log(name.substring(0,4)) // Index 0 se 3 tak, 4 not include
 
+// let text = "Hello world, welcome to the universe.";
+// console.log(text.includes("world")); // check karta hai ki ye word usme hai ya nahi
