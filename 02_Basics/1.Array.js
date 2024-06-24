@@ -50,3 +50,11 @@ console.log(fruits)
 let newArray2 = fruits.splice(1,4, "Potato", "Tomato") // 1 represent the position to add, 4 represent the no. of elements to remove, "Potato" and "Tomato" represent the elements to be added.
 console.log(newArray2)
 console.log(fruits)
+
+// console.log(Array.isArray("Harshita"))
+// console.log(Array.from("Harshita"))
+
+let score1 = 200;
+let score2 = 300;
+let score3 = 400;
+console.log(Array.of(score1, score2, score3))
