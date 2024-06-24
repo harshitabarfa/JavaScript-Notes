@@ -1,12 +1,5 @@
 // Object : Ek tarika hota hai jisse ki hum ek user ki details ko ek sath rakh sakte hai
 
-// var obj1 = new Object();  
-// obj1.Id = 101;  
-// obj1.Name = "Harshita barfa";  
-// obj1.Salary = 50000; 
-
-// console.log(obj1)
-
 const MySymbol = Symbol("MyKey1");
 const obj = {
     Name : "Harshita",
