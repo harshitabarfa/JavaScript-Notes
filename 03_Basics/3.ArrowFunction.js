@@ -3,18 +3,19 @@ const user = {
     price: 999,
 
     welcomeMessage: function () {
-        console.log(`${this.userName}, welcome to the website.`);
+        console.log(`${this.userName}, welcome to the website.`); // (this) current context ko refer karta hai.
         console.log(this);
     },
 };
 // user.welcomeMessage();
-// user.userName = "Mayuri";
+// user.userName = "Mayuri"; // Current context change ho gya hai yha pe.
 // user.welcomeMessage();
-// console.log(this);
+
+// console.log(this); // Empty object refer karega node enviroment me.
 
 function chai() {
     let userName = "Harshita";
-    //   console.log(this.userName);
+    //   console.log(this.userName); // Function me (this) kam nahi kar raha hai.
 }
 // chai();
 
